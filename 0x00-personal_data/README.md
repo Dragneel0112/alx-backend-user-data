@@ -8,7 +8,7 @@
 
 ## Tasks
 
-## Mandatory
+### Mandatory
 
 | Tasks | Description | Files |
 | ----- | ----- | ----- |
