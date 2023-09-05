@@ -58,6 +58,7 @@ class BasicAuth(Auth):
         from the Base64 decoded str
         Args:
             decoded_base64_authorization_header: str to extract data
+        Return: User Credentials (Allows : in password)
         '''
         if not (decoded_base64_authorization_header and
                 isinstance(decoded_base64_authorization_header, str) and
