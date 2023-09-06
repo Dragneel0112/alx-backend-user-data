@@ -2,6 +2,7 @@
 '''
 Authorization files for basic auth
 '''
+import os
 from typing import List, TypeVar
 from flask import Flask, request
 
@@ -72,3 +73,11 @@ class Auth:
         '''
         request = Flask(__name__)
         return None
+
+    def session_cookie(self, request=None) -> str:
+        '''
+        Obtains Session based cookie
+        '''
+        if request is not None:
+            cookie_name = os.getenv('SESSION_NAME')
+            return request.cookies.get(cookie_name)
