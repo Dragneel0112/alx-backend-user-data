@@ -8,7 +8,7 @@
 
 ## Tasks
 
-## Mandatory
+### Mandatory
 
 | Tasks | Description | Files |
 | ----- | ----- | ----- |
@@ -32,6 +32,8 @@
 | <ul><li> - [ ] Task 17 </li></ul> | 17. Get reset password token | [app.py](app.py) |
 | <ul><li> - [ ] Task 18 </li></ul> | 18. Update password | [auth.py](auth.py) |
 | <ul><li> - [ ] Task 19 </li></ul> | 19. Update password end-point | [app.py](app.py) |
+
+### Advanced
 
 | Tasks | Description | Files |
 | ----- | ----- | ----- |
